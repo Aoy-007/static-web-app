@@ -1,0 +1,16 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": [
+      "*.{jpg,gif,png}",
+      "assets/*"
+    ]
+  },
+  "routes": [
+    {
+      "route": "/list",
+      "redirect": "/list/",
+      "statusCode": 302
+    }
+  ]
+}
